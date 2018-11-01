@@ -1,10 +1,10 @@
 package com.mokyun.android.course;
 
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.eevoe.flow.FlowActivity;
+import com.mokyun.android.course.ui.LoginFragment;
 
 public class MainActivity extends FlowActivity {
 
@@ -15,6 +15,6 @@ public class MainActivity extends FlowActivity {
 
     @Override
     protected Fragment onCreateFlow(Bundle bundle) {
-        return new TestFragment();
+        return new LoginFragment();
     }
 }
