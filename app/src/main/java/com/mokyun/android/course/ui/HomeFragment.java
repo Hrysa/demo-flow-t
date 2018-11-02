@@ -1,5 +1,6 @@
 package com.mokyun.android.course.ui;
 
+import android.databinding.DataBindingUtil;
 import android.view.View;
 import android.widget.Button;
 
@@ -15,5 +16,6 @@ public class HomeFragment extends FlowFragment {
 
     @Override
     public void initView(View view) {
+        DataBindingUtil.bind(view);
     }
 }
